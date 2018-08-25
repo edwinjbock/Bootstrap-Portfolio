@@ -30,7 +30,6 @@ p {
 }
 
 #masthead {
-  
   z-index: 99;
   overflow: auto;
   color: #fff;
@@ -38,11 +37,12 @@ p {
 }
 
 header {
-    border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
+
 #logo {
 
-padding: 0 15px 15px 15px;
+  padding: 0 15px 0px 15px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -54,16 +54,13 @@ padding: 0 15px 15px 15px;
 }
 
 nav {
-padding: 15px 15px 15px 15px;
-
-
+  padding: 30px 0px 0px 15px;
 }
 
 nav a {
-
-  padding-left: 5px;
+  padding-left: 0px;
   margin-left: 0px;
-    margin-right: 10px;
+  margin-right: 10px;
   color: #999;
   text-decoration: none;
 
@@ -89,7 +86,6 @@ footer {
 .main-section {
   float: left;
   width: 100%;
-
   padding: 30px;
   margin: 30px 0 30px;
   background: #fff;
