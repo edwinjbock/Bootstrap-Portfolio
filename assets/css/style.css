@@ -32,7 +32,6 @@ p {
 #masthead {
   
   z-index: 99;
-
   overflow: auto;
   color: #fff;
   background: #fff;
@@ -43,7 +42,7 @@ header {
 }
 #logo {
 
-
+padding: 0 15px 15px 15px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -55,19 +54,23 @@ header {
 }
 
 nav {
+padding: 15px 15px 15px 15px;
 
 
 }
 
 nav a {
-  display: inline-block;
+
   padding-left: 5px;
   margin-left: 0px;
     margin-right: 10px;
-  line-height: 18px;
   color: #999;
   text-decoration: none;
 
+}
+
+img {
+  padding-right: 15px;
 }
 
 footer {
@@ -86,9 +89,9 @@ footer {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 30px 0 30px;
   background: #fff;
   border: 1px solid #ddd;
 }
